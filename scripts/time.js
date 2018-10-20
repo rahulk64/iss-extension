@@ -30,4 +30,4 @@ setInterval(function() {
    } else {
      $("#time-text").text('0'+ hour.toString() + ":0" + minute.toString());
    }
-}, 50); //refresh every 50 milliseconds
+}, 500); //refresh every 500 milliseconds
