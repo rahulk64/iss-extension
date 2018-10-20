@@ -18,7 +18,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   color: white;
 }
 
@@ -42,4 +42,8 @@ h3 {
 
 #quote {
   margin: 2% 15vw -5% 15vw;;
+}
+
+#welcome-text, #time-text {
+  font-family: "Raleway", sans-serif !important;
 }

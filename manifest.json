@@ -1,0 +1,12 @@
+﻿{
+  "manifest_version": 2,
+  "name": "Space Extension",
+  "description": "A space-themed new tab extension that pulls from NASA's image database.",
+  "version": "0.1",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "http://www.google.com"
+  ]
+}
