@@ -1,24 +1,26 @@
-var name = "Timothy"
 setInterval(function() {
    var time = new Date();
    var hour = time.getHours();
    var minute = time.getMinutes();
 
+   //Determines if should print good morning, afternoon, or evening
    if(hour >= 18) {
-     greeting = "Good Evening";
+     greeting = "Good Evening!";
    } else if (hour >= 12) {
-     greeting = "Good Afternoon";
+     greeting = "Good Afternoon!";
    } else if(hour > 0) {
-     greeting = "Good Morning";
+     greeting = "Good Morning!";
    } else {
-     greeting = "Welcome";
+     greeting = "Welcome!";
    }
-   $("#welcome-text").text(greeting + ", " + name + "!");
+   $("#welcome-text").text(greeting);
 
+   //Non-millitary time style
    if(hour > 12) {
      hour -= 12;
    }
 
+   //Include 0's if hours or minutes is < 10
    if(hour >= 10 && minute >= 10) {
      $("#time-text").text(hour.toString() + ":" + minute.toString());
    } else if (hour >= 10) {
@@ -28,4 +30,4 @@ setInterval(function() {
    } else {
      $("#time-text").text('0'+ hour.toString() + ":0" + minute.toString());
    }
-}, 50);
+}, 50); //refresh every 50 milliseconds
