@@ -54,12 +54,10 @@ Add additional notes about how to deploy this on a live system
 
 * **Santiago Cortes** - *Quote Scraping* - [sntgC](https://github.com/sntgC)
 * **Ansh Jain** - *Image Generation* - [Gamebot3](https://github.com/Gamebot3)
+* **Ashwin Kudva** - *Quote Generation, UI* - [shwinay](https://github.com/shwinay)
 * **Amit Joshi** - *ISS Feed Management* - [amit56](https://github.com/amit56)
 * **Rahul Krishnan** - *UI Development* - [rahulk64](https://github.com/rahulk64)
-* **Ashwin Kudva** - *General Manager* - [shwinay](https://github.com/shwinay)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
