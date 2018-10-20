@@ -14,15 +14,20 @@ app.controller('spaceController', function($scope, $http, $window) {
     }
     $scope.date = $scope.contents.date;
     $scope.explanation = $scope.contents.explanation;
-    console.log($scope.date);
   });
 });
+
+document.getElementById("backgroundimage").onload = makeVisible;
+
+function makeVisible() {
+  $("body").css("visibility", "visible");
+}
 
 //quotes
 let quotes =
 
 [
-  {  
+  {
     "body":"\"Man must rise above the Earth-to the top of the atmosphere and beyond-for only thus will he fully understand the world in which he lives.\"",
     "author":"- Socrates, Philosopher"
   },
