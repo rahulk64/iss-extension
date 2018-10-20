@@ -36,6 +36,10 @@ h3 {
     font-size: 1.4em;
 }
 
+#wrapper {
+  margin: -5% 0 0 0;
+}
+
 #quote {
   margin: 2% 15vw -5% 15vw;;
 }
