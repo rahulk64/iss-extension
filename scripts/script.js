@@ -1,6 +1,6 @@
 let app = angular.module('spaceApp', []);
 
-let randomDay = Math.floor((Math.random() * 30) + 1);
+let randomDay = Math.floor((Math.random() * 28) + 1);
 let randomMonth = Math.floor((Math.random() * 9) + 1);
 
 app.controller('spaceController', function($scope, $http, $window) {
