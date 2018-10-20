@@ -28,5 +28,4 @@ setInterval(function() {
    } else {
      $("#time-text").text('0'+ hour.toString() + ":0" + minute.toString());
    }
-   setTimeout(test, 5000);
 }, 50);
