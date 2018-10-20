@@ -49,7 +49,3 @@ h3 {
 #welcome-text, #time-text {
   font-family: "Raleway", sans-serif !important;
 }
-
-body {
-  visibility: hidden;
-}

@@ -17,10 +17,16 @@ app.controller('spaceController', function($scope, $http, $window) {
   });
 });
 
+window.onload=function(){
+  $("body").hide();
+}
+
 document.getElementById("backgroundimage").onload = makeVisible;
 
 function makeVisible() {
-  $("body").css("visibility", "visible");
+  $("body").fadeIn("slow", function(){
+    console.log("Animation fin");
+  });
 }
 
 //quotes
