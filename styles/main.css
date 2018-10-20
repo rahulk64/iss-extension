@@ -26,11 +26,16 @@ h1 {
   font-size: 6em;
   font-weight: bold;
 }
+
 h2 {
   font-size: 3em;
   font-weight: bold;
 }
 
-#time {
-  margin: -10% 0 5% 0;
+h3 {
+    font-size: 1.4em;
+}
+
+#quote {
+  margin: 2% 15vw -5% 15vw;;
 }
