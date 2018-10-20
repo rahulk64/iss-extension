@@ -10,18 +10,25 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
+    <img src="https://apod.nasa.gov/apod/image/1810/NGC6543-BYU-L.jpg"/>
     <div id="wrapper">
-      <img src="https://apod.nasa.gov/apod/image/1810/NGC6543-BYU-L.jpg"/>
-      <div id = "time" class="container-fluid text-center align-middle">
-        <h1>12:00 AM</h1>
+      <div id="time" class="container-fluid text-center align-middle">
+        <h1 id="time-text">12:00 AM</h1>
       </div>
-      <div id = "welcome" class = "text-center">
+      <div id="welcome" class="text-center">
+        <h2 id="welcome-text">
+      </div>
+      <div id="quote" class="text-center">
         <h3>"Where there's space, there's no life"</h3>
         <h6>~Rahul Krishnan</h6>
+      </div>
     </div>
 
     <!--Bootstrap and JQuery Javascript -->
+    <script type='text/javascript' src="scripts/time.js"></script>
+    <script type='text/javascript' src="scripts/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
   </body>
 </html>
