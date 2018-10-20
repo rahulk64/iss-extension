@@ -1,7 +1,12 @@
+html {
+
+}
+
 body {
     background: black;
     background-image:url("https://apod.nasa.gov/apod/image/1810/NGC6543-BYU-L.jpg");
     background-size: 100% 100%;
+
     display:flex;
     align-items: center;
     justify-content: center;
@@ -9,16 +14,16 @@ body {
     height: 100vh;
 }
 
-h1 {
-  font-size: 4em;
-  font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif !important;
   color: white;
 }
 
-h3 {
-  color: white;
+h1 {
+  font-size: 6em;
+  font-weight: bold;
 }
 
 #time {
-  margin: 5% 0;
+  margin: -10% 0 5% 0;
 }
