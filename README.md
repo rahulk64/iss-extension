@@ -1,48 +1,10 @@
-# iss-extension
+# I Need Some Space
 
 A simple Chrome extension that relies on publicly available NASA APIs to create awe-inspiring home pages, featuring either a live satellite feed from the International Space Station or a random image generated from NASA's APOD, or Astronomy Picture of the Day. You can download the extension at [this link](https://chrome.google.com/webstore/detail/i-need-some-space/pnfnlobicflcdpdgggjmfdpodnpmepgg).  
 
-## Getting Started
+### Usage
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Simply download and install the Chrome Extension. Hit "OK" on the dialog box when asked if it is okay to override what the new tab will look like. Finally, simply open a new tab and enjoy the view, and refresh for a new view and quote.
 
 ## Built With
 
@@ -57,7 +19,3 @@ Add additional notes about how to deploy this on a live system
 * **Ashwin Kudva** - *Quote Generation, UI* - [shwinay](https://github.com/shwinay)
 * **Amit Joshi** - *ISS Feed Management* - [amit56](https://github.com/amit56)
 * **Rahul Krishnan** - *UI Development* - [rahulk64](https://github.com/rahulk64)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
