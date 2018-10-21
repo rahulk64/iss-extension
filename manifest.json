@@ -13,6 +13,6 @@
   },
 
   "permissions": [
-    "*://*.youtube.com/*"
+    "http://www.youtube.com/iframe_api/"
   ]
 }
