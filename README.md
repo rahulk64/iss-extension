@@ -4,7 +4,10 @@ A simple Chrome extension that relies on publicly available NASA APIs to create 
 
 ### Usage
 
-Simply download and install the Chrome Extension. Hit "OK" on the dialog box when asked if it is okay to override what the new tab will look like. Finally, simply open a new tab and enjoy the view, and refresh for a new view and quote.
+Simply download and install the Chrome Extension. Hit "OK" on the dialog box when asked if it is okay to override what the new tab will look like. Finally, simply open a new tab and enjoy the view, and refresh for a new view and quote. See example image below:
+
+
+[![Capture.png](https://i.postimg.cc/rmHKQ3nS/Capture.png)](https://postimg.cc/phDWdGtT)
 
 ## Built With
 
