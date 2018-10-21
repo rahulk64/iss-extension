@@ -3,6 +3,7 @@
   "name": "Space Extension",
   "description": "A space-themed new tab extension that pulls from NASA's image database or the ISS Live Feed.",
   "version": "0.1",
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com/ https://www.youtube.com/ chrome-extension://cajpihdgaanclgjlpfhadjjmbnndocmn https://s.ytimg.com; object-src 'self'; child-src https://www.youtube.com/ chrome-extension://cajpihdgaanclgjlpfhadjjmbnndocmn https://s.ytimg.com",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
@@ -13,6 +14,8 @@
   },
 
   "permissions": [
-    "http://www.youtube.com/iframe_api/"
+    "activeTab",
+    "webview",
+    "*://*.google-analytics.com/*"
   ]
 }
