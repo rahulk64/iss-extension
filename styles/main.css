@@ -7,6 +7,30 @@ body {
     height: 100vh;
 }
 
+#worldmap {
+  margin:0 auto;
+  position: absolute;
+  right: 1.5em;
+  top: 80%;
+  /* float: right; */
+  /* float: bottom; */
+}
+
+#worldmap svg {
+  background:rgba(50,167,224,0.4);
+
+  border-radius: 200px;
+  box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.land {
+  fill: rgba(188,188,188,.94);
+}
+
+#globesarecool {
+  color:#fff;
+}
+
 img {
     position: absolute;
     left: 0;
