@@ -6,7 +6,13 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
+
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
   "permissions": [
-    "http://www.google.com"
+    "*://*.youtube.com/*"
   ]
 }
