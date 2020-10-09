@@ -1,6 +1,6 @@
 # I Need Some Space
 
-A simple Chrome extension that relies on publicly available NASA APIs to create awe-inspiring home pages, featuring either a live satellite feed from the International Space Station or a random image generated from NASA's APOD, or Astronomy Picture of the Day. You can download the extension at [this link](https://chrome.google.com/webstore/detail/i-need-some-space/pnfnlobicflcdpdgggjmfdpodnpmepgg).  
+A simple Chrome extension that relies on publicly available NASA APIs to create awe-inspiring home pages, featuring either a live satellite feed from the International Space Station or a random image generated from NASA's APOD, or Astronomy Picture of the Day. You can download the extension at [this link](https://chrome.google.com/webstore/detail/i-need-some-space/pnfnlobicflcdpdgggjmfdpodnpmepgg).  Our other repository for the ISS live feed at [this link](https://github.com/iss-extension/iss-stream).
 
 ### Usage
 
